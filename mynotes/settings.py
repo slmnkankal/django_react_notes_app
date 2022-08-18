@@ -135,11 +135,11 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = [
     "https://example.com",
     "https://sub.example.com",
-    "http://localhost:3000",
+    "http://localhost:3000", #* this worked for my connection!
     "http://127.0.0.1:3000",
 ]
 
-# CORS_ALLOW_ALL_ORIGINS: True #* This is alternative bove section!
+# CORS_ALLOW_ALL_ORIGINS: True #* This is alternative of above section!
 
 CORS_ALLOW_METHODS = [
     "DELETE",
