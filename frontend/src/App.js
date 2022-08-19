@@ -1,8 +1,8 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes
-} from "react-router-dom";
+} from "react-router-dom"; // instead of BrowserRouter we use HashRouter
 import './App.css';
 import Header from './components/Headers';
 import NotesListPage from './pages/NotesListPage';
